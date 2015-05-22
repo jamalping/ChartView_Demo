@@ -165,7 +165,6 @@ NSMutableArray *getUnRepeatRadomNumber(int number,int high) {
 //                    [number stringValue];
                     
                     [numberStr drawInRect:CGRectMake(x*GridWidth+6.5, i*GridHeight+6.5, GridWidth, GridHeight) withAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12],NSForegroundColorAttributeName:[UIColor redColor]}];
-                    
                 }
             }
         }
